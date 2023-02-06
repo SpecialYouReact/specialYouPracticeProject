@@ -1,7 +1,13 @@
 import "./App.css";
+import Button from "./shared components/button/Button";
+// import { Button } from "@mui/material";
 
 function App() {
-  return <div className="App">Raghav</div>;
+  return (
+    <>
+      <Button />
+    </>
+  );
 }
 
 export default App;
