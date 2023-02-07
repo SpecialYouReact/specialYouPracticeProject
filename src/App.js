@@ -1,21 +1,21 @@
 import "./App.css";
 import Button from "./shared components/button/Button";
 // import { Button } from "@mui/material";
+// import other from "./shared assets/icons/index";
+import { HeartIcon } from "./shared assets/icons";
+import Nature from "./shared assets/images/nature.jpg";
+import specialYou from "./shared assets/images/1 - TB-JPZR-L64L/1.jpg";
 
 function App() {
+  // console.log(other);
   return (
     <>
       <Button />
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-      </svg>
+      <HeartIcon />
+
+      {/* <Nature /> */}
+      <img src={Nature} height="300px" width="300px" alt="nature" />
+      <img src={specialYou} alt="special" />
     </>
   );
 }

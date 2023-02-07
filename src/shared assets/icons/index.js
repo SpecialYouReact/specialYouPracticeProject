@@ -1,4 +1,16 @@
 ////////////////// Home Page Icons /////////////////
+//this is right
+// const other = 20;
+// export default other;
+
+//this is wrong why ?
+// export default other = 20;
+
+//this is also wrong--
+// export default other = () => {
+//   return <div>index</div>;
+// };
+// export default index
 
 // header icons
 export const HeartIcon = () => {
