@@ -1,0 +1,35 @@
+.product-carousel {
+  position: relative;
+  border: 1px solid red;
+  padding: 26px;
+}
+.product-container {
+  border: 1px solid blue;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.previousButton,
+.nextButton {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.previousButton {
+  left: 0;
+  top: 0;
+}
+.nextButton {
+  right: 0;
+  top: 0;
+}
+.previousButton p,
+.nextButton p {
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.436);
+}
