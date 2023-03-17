@@ -1,0 +1,42 @@
+.homePage-search {
+  width: 328px;
+  height: 48px;
+  background: #fff5f5;
+  border: 1.5px solid #e95850;
+  border-radius: 43px;
+}
+.homePage-loginForm {
+  width: 364px;
+  height: 48px;
+  background: #fff5f5;
+  border: 1px solid #e95850;
+  border-radius: 43px;
+}
+.myCart-applyCoupon {
+  width: 272px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid rgba(27, 5, 4, 0.2);
+  border-radius: 43px;
+}
+.pdp-checkDeliveryAddress {
+  width: 311px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid rgba(27, 5, 4, 0.2);
+  border-radius: 43px;
+}
+.pdp-writeReview {
+  width: 453px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid rgba(27, 5, 4, 0.2);
+  border-radius: 43px;
+}
+.checkout-recipientDetails {
+  width: 453px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid rgba(27, 5, 4, 0.2);
+  border-radius: 43px;
+}

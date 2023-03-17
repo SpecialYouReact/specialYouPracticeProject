@@ -1,0 +1,77 @@
+/* total 14 sections of homepage */
+.header {
+  width: 1280px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8px;
+  background-color: #f9f5ff;
+}
+.navBar {
+  width: 1280px;
+  height: 56px;
+  display: flex;
+  gap: 96px;
+  color: #440e87;
+  background-color: #f9f5ff;
+  padding-left: 118px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.banner {
+  width: 1280px;
+  height: 320px;
+  border: 2px solid red;
+}
+.ourProducts {
+  width: 1280px;
+  height: 291px;
+}
+.decorationsForGrid {
+  width: 1280px;
+  height: 1188px;
+  border: 2px solid blue;
+}
+.bestSellers {
+  width: 1280px;
+  height: 635px;
+}
+.decorationForKids {
+  width: 1280px;
+  height: 271px;
+}
+.themesGrid {
+  width: 1280px;
+  height: 1170px;
+}
+.secondBanner {
+  width: 1280px;
+  height: 560px;
+}
+.decorationBackdrops {
+  width: 1280px;
+  height: 635px;
+}
+.happyCustomers {
+  width: 1280px;
+  height: 526px;
+}
+.availableCities {
+  width: 1280px;
+  height: 93px;
+}
+.footer {
+  width: 1280px;
+  height: 146px;
+}
+.copyRight {
+  width: 1280px;
+  height: 62px;
+}

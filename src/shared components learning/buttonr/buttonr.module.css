@@ -1,0 +1,181 @@
+/* homepage related buttons*/
+.homePage-loginPopup {
+  width: 235px;
+  height: 42px;
+  background: #e95850;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.homePage-loginForm {
+  width: 364px;
+  height: 56px;
+  background: #f99c98;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.homePage-viewAll {
+  width: 151px;
+  height: 48px;
+  background: #e95850;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.homePage-orderPlaced {
+  width: 453px;
+  height: 56px;
+  background: #e95850;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* mycart related buttons */
+.myCart-applyCoupon {
+  width: 151px;
+  height: 48px;
+  background: #e95850;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.myCart-productAddOns {
+  width: 172px;
+  height: 48px;
+  background-color: transparent;
+  border-radius: 100px;
+  /* border: none; */
+  /* color: white; */
+  border: 2px solid #e95850;
+  color: #e95850;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.myCart-checkOut {
+  width: 269px;
+  height: 56px;
+  background: #e95850;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* pdp related buttons */
+.pdp-writeReview {
+  width: 500px;
+  height: 64px;
+  background: #e95850;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.pdp-submitReview {
+  width: 453px;
+  height: 56px;
+  background: #f99c98;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.pdp-checkDeliveryAddress {
+  width: 183px;
+  height: 48px;
+  background: #bdbdbd;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+/* footer related buttons */
+.footer-addToCart {
+  width: 307px;
+  height: 56px;
+  background: #e95850;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer-proceedToPay {
+  width: 307px;
+  height: 56px;
+  background: #f99c98;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* checkout related buttons */
+.checkOut-recipientDetails {
+  width: 453px;
+  height: 48px;
+  background-color: transparent;
+  border-radius: 100px;
+  /* border: none;
+    color: white; */
+  border: 2px solid #e95850;
+  color: #e95850;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* Add Subtract buttons */
+.myCart-addSubtract,
+.checkOut-addSubtract {
+  height: 24px;
+  width: 24px;
+  background: #e95850;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.pdp-addSubtract {
+  height: 32px;
+  width: 32px;
+  background: #e95850;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 12px;
+}

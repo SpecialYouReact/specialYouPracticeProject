@@ -1,0 +1,20 @@
+/* this include only those (modals) on opening of which other features of screen doesn't work without closing them*/
+/* some of them are now shifted to right drawer */
+.homepage-loginForm {
+  width: 412px;
+  height: 354px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.pdp-review {
+  width: 502px;
+  height: 408px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.homepage-orderPlaced {
+  width: 502px;
+  height: 663px;
+  background: #ffffff;
+  border-radius: 12px;
+}

@@ -1,0 +1,87 @@
+/* home page */
+.homepage-bestSellers {
+  width: 243px;
+  height: 299px;
+  border-radius: 16px;
+}
+.homepage-decorationBackdrops {
+  width: 243px;
+  height: 299px;
+  border-radius: 64px;
+}
+
+/* wishlist page */
+.wishlist {
+  width: 243px;
+  height: 299px;
+  border-radius: 16px;
+}
+
+/* cart page */
+.cart {
+  width: 115px;
+  height: 115px;
+  border-radius: 8px;
+}
+.cart-productAddOns {
+  width: 156px;
+  height: 149px;
+  border-radius: 8px;
+}
+
+/* plp page */
+.plp {
+  width: 243px;
+  height: 299px;
+  border-radius: 16px;
+}
+
+/* pdp page */
+.pdp-mainImage {
+  width: 504px;
+  height: 382px;
+  border-radius: 16px;
+}
+.pdp-extraImage {
+  width: 124px;
+  height: 93px;
+  border-radius: 12px;
+}
+.pdp-selectedExtraImage {
+  width: 124px;
+  height: 93px;
+  border: 3px solid #e95850;
+  border-radius: 12px;
+}
+.pdp-colorOption {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+}
+.pdp-selectedColorOption {
+  width: 56px;
+  height: 56px;
+  border: 2px solid #e95850;
+  filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+}
+.pdp-productAddOns {
+  width: 156px;
+  height: 149px;
+  border-radius: 8px;
+}
+.pdp-similarProducts {
+  width: 158px;
+  height: 203px;
+  border-radius: 8px;
+}
+
+/* checkout page */
+.checkout {
+  width: 115px;
+  height: 115px;
+  border-radius: 8px;
+}
+
+/* search bar */
+/* product photo also comes in suggestion of search bar is there anything we can do  */

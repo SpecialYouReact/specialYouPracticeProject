@@ -1,0 +1,82 @@
+/* generally these are those images whick looks like product but are creative images rather. Also other than product images are also there */
+/* size present : big,medium,small,very small*/
+
+/* these are those styles which is related to parent of image tag that is div  */
+
+/* banner(big rectangle images) */
+/* homepage banner has experimental height and width. itmight similar with homepage bannerImage in future.*/
+.homePage-banner {
+  width: 1060px;
+  height: 280px;
+  border-radius: 12px;
+  border: 2px solid red;
+}
+.homePage-secondBanner {
+  width: 1032px;
+  height: 409px;
+  border-radius: 16px;
+}
+/* Decoration for kids(small circle images) */
+.homePage-ourProducts {
+  width: 124px;
+  height: 124px;
+}
+.homePage-decorationThemes {
+  width: 124px;
+  height: 124px;
+}
+/* medium sized rectangular image */
+.homePage-grid1 {
+  width: 506px;
+  height: 282px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.48) 100%
+  );
+}
+.homePage-grid2 {
+  width: 506px;
+  height: 475px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.48) 100%
+  );
+}
+/* happy customer photo(very small sized circle image) */
+.homePage-happyCustomer {
+  width: 48px;
+  height: 48px;
+}
+.homePage-user {
+  width: 80px;
+  height: 80px;
+}
+.pdp-customerReview {
+  width: 32px;
+  height: 32px;
+}
+/* small sized circle image */
+.orderPlaced-tick {
+  /*i don't think it is useful because it is not dynamic and is static*/
+  width: 180px;
+  height: 180px;
+}
+/* rectangle image */
+.homePage-brandLogo {
+  /*i don't think it is useful because it is not dynamic and is static*/
+  width: 152px;
+  height: 48px;
+  border: 2px solid red;
+}
+
+/* these are those styles which is related to image tag   */
+.homePage-brandLogoImage {
+  width: 152px;
+  height: 48px;
+}
+.homePage-bannerImage {
+  width: 1032px;
+  height: 256px;
+}

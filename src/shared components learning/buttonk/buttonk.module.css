@@ -1,0 +1,84 @@
+/* homepage button related buttons*/
+.homepage-loginPopup {
+  width: 235px;
+  height: 42px;
+  background: #e95850;
+  border-radius: 100px;
+}
+.homepage-loginForm {
+  width: 364px;
+  height: 56px;
+  background: #f99c98;
+  border-radius: 100px;
+}
+.homepage-viewAll {
+  width: 151px;
+  height: 48px;
+  background: #e95850;
+  border-radius: 100px;
+}
+.myCart-couponApply {
+  width: 151px;
+  height: 48px;
+  background: #e95850;
+  border-radius: 100px;
+}
+.myCart-checkout {
+  width: 269px;
+  height: 56px;
+  background: #e95850;
+  border-radius: 100px;
+}
+
+/* pdp related buttons */
+.pdp-writeReview {
+  width: 500px;
+  height: 64px;
+  background: #e95850;
+  border-radius: 100px;
+}
+.pdp-submitReview {
+  width: 453px;
+  height: 56px;
+  background: #f99c98;
+  border-radius: 100px;
+}
+.pdp-checkDeliveryAddress {
+  width: 183px;
+  height: 48px;
+  background: #bdbdbd;
+  border-radius: 100px;
+}
+.pdp-addToCart {
+  /*or maybe footer-addtoCart*/
+  width: 307px;
+  height: 56px;
+  background: #e95850;
+  border-radius: 100px;
+}
+.pdp-addSubtract {
+  height: 32px;
+  width: 32px;
+}
+
+/* other related buttons */
+.other-addsubtract {
+  height: 24px;
+  width: 24px;
+}
+.checkout-proceedToPay {
+  width: 307px;
+  height: 56px;
+  background: #f99c98;
+  border-radius: 100px;
+}
+.orderPlaced-okayGotIt {
+  width: 453px;
+  height: 56px;
+  background: #e95850;
+  border-radius: 100px;
+}
+/* .checkout-addNewRecipientDetails{
+    this is also a button shape, what to do?
+  } */
+/* button also present in myCart-productAddon-add ? */
