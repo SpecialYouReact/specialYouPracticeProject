@@ -1,0 +1,275 @@
+.header {
+  height: 15rem;
+  background-color: #f9f5ff;
+  padding: 2rem 10rem;
+  /* position: sticky;
+  top: 0;
+  z-index: 100; */
+}
+.headerSticky {
+  height: 15rem;
+  background-color: #f9f5ff;
+  padding: 2rem 10rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.firstNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  position: relative;
+}
+.hamBurgerAndLogoContainer {
+  height: 100%;
+  width: 30%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  align-items: center;
+}
+.hamBurgerIcon {
+  display: none;
+}
+.specialYouLogo {
+  /* height: 8rem; */
+  height: 70%;
+  /* width: 20rem; */
+  width: 50%;
+  /* border: 1px solid blue; */
+  min-width: 10.5rem;
+  max-width: 15.5rem;
+}
+.headerInput {
+  height: 70%;
+  width: 30%;
+  border-radius: 10rem;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  background-color: #f9f5ff;
+  border: 1px solid rgba(92, 92, 92, 0.2);
+  /* color: rgba(92, 92, 92, 0.2);  this changes the color of text as well as keyboard cursor*/
+  /* how to change the color of placeholder text ? */
+}
+.headerInputDesktop {
+  /* display: none; */
+}
+
+.headerIcons {
+  display: flex;
+  gap: 2rem;
+}
+.headerIcon {
+  height: 3.4rem;
+  width: 3.4rem;
+}
+.mobileWishListIcon {
+  display: none;
+}
+.mobileCartIcon {
+  display: none;
+}
+.mobileUserIcon {
+  display: none;
+}
+.secondNavbar {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  gap: 4rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #440e87;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.navBarTheme {
+  /* display: none; */
+}
+.headerInputMobile {
+  display: none;
+  /* height: 100%; */
+  /* width: 100%; */
+  /* margin-top: 2rem; */
+}
+
+/* //////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 1400px) {
+  .navBarTheme {
+    font-size: 2rem;
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .navBarTheme {
+    font-size: 1.4rem;
+    gap: 1rem;
+  }
+  .headerIcons {
+    gap: 1rem;
+  }
+  .headerIcon {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
+@media only screen and (max-width: 920px) {
+  /* selected all sections */
+  .header {
+    padding: 1.5rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .hamBurgerIcon {
+    display: block;
+  }
+  .headerInputDesktop {
+    display: none;
+  }
+  .headerInputMobile {
+    display: block;
+    width: 100%;
+  }
+  .navBarTheme {
+    display: none;
+  }
+  .mobileWishListIcon {
+    display: block;
+  }
+  .desktopWishListIcon {
+    display: none;
+  }
+  .mobileCartIcon {
+    display: block;
+  }
+  .desktopCartIcon {
+    display: none;
+  }
+  .mobileUserIcon {
+    display: block;
+  }
+  .desktopUserIcon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+  }
+  .header {
+    /* height: 5%; */
+    height: 13rem;
+  }
+
+  /* selected all section again */
+  .header {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .header {
+    /* height: 3.5%; */
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .header {
+    /* height: 2.5%; */
+    height: 10rem;
+  }
+  .specialYouLogo {
+    min-width: 8rem;
+  }
+  .headerIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .headerInput {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* //////////////////////////////////////// */
+/* other than homepage design : for plp and pdp page */
+.headerPlpAndPdp {
+  height: 15rem;
+  background-color: #f9f5ff;
+  padding: 2rem 10rem;
+}
+.secondNavbarPlpAndPdp {
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  height: 50%;
+  gap: 4rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #440e87;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.mobileSearchIcon {
+  display: none;
+}
+.routeTextWritten {
+  height: 100%;
+
+  padding-top: 3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  /* background-color: white; */
+  /* border: 1px solid rgba(92, 92, 92, 0.2); */
+  /* color: rgba(92, 92, 92, 0.2);  this changes the color of text as well as keyboard cursor*/
+  /* how to change the color of placeholder text ? */
+  display: none;
+}
+.innerRouteTextWritten {
+  color: red;
+}
+
+/* ///////////////////////////// */
+/* checkOut Page design */
+
+.headerPlpAndPdp {
+  height: 15rem;
+  background-color: #f9f5ff;
+  padding: 2rem 10rem;
+}
+
+.secondNavBarCheckOut {
+  display: none;
+}
+
+@media only screen and (max-width: 720px) {
+  .mobileSearchIcon {
+    display: block;
+  }
+  .routeTextWritten {
+    display: block;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .headerPlpAndPdp {
+    padding: 1.5rem 4rem;
+  }
+}
+@media only screen and (max-width: 550px) and (min-width: 400px) {
+  .routeTextWritten {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .routeTextWritten {
+    font-size: 1.2rem;
+  }
+}

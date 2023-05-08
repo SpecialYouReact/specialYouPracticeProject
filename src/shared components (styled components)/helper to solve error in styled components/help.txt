@@ -1,0 +1,41 @@
+The warning message you are seeing indicates that you have defined a styled component inside a function component or a render method. This is not recommended as it can cause performance issues.
+
+To resolve the warning, you can move the definition of the styled component outside of the component or render method where it is currently defined. For example, you can define it at the top level of your module:
+
+javascript
+Copy code
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+  // Your styles here
+`;
+
+function MyComponent() {
+  return (
+    <StyledDiv>
+      // Your content here
+    </StyledDiv>
+  );
+}
+By defining the styled component at the top level of your module, it will only be created once and can be reused by any component in your application.
+
+If you need to pass props to your styled component, you can use the attrs method to create a new component with the props passed in as attributes. For example:
+
+javascript
+Copy code
+import styled from 'styled-components';
+
+const StyledDiv = styled.div.attrs(props => ({
+  backgroundColor: props.color || 'white'
+}))`
+  background-color: ${props => props.backgroundColor};
+`;
+
+function MyComponent() {
+  return (
+    <StyledDiv color="blue">
+      // Your content here
+    </StyledDiv>
+  );
+}
+In the example above, the backgroundColor attribute is passed to the StyledDiv component based on the value of the color prop.
