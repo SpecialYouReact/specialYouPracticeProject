@@ -8,3 +8,10 @@ const store = configureStore({
 });
 
 export default store;
+
+// import { configureStore } from '@reduxjs/toolkit'
+
+// const store = configureStore({
+//   reducer: {rightDrawerReducer},
+// })
+// export default store
